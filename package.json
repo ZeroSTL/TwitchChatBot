@@ -1,0 +1,30 @@
+{
+  "name": "twitchchatbot",
+  "version": "1.0.0",
+  "description": "Chat bot for twitch.tv streamer NonstopAntonio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZeroSTL/TwitchChatBot.git"
+  },
+  "keywords": [
+    "git",
+    "twitch",
+    "bot",
+    "node.js",
+    "tmi.js"
+  ],
+  "author": "Scott Larsen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZeroSTL/TwitchChatBot/issues"
+  },
+  "homepage": "https://github.com/ZeroSTL/TwitchChatBot#readme",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "tmi.js": "^1.8.5"
+  }
+}
