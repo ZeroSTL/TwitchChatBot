@@ -9,7 +9,7 @@ const client = new tmi.Client({
     },identity: {
         username: "nonstopantonbot",
         password: "bcin40d65fcfg45kwk92xyvb22n5mt"
-    },channels: ["summit1g"]
+    },channels: ["nonstopantonio"]
 });
 
 
