@@ -2,7 +2,7 @@
   "name": "twitchchatbot",
   "version": "1.0.0",
   "description": "Chat bot for twitch.tv streamer NonstopAntonio",
-  "main": "app.js",
+  "main": "server.js",
   "scripts": {
   },
   "repository": {
