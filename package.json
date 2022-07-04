@@ -2,9 +2,8 @@
   "name": "twitchchatbot",
   "version": "1.0.0",
   "description": "Chat bot for twitch.tv streamer NonstopAntonio",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
