@@ -58,7 +58,7 @@ client.on('message', (channel, tags, message, self) => {
             break;
 
         case '!youtube':
-            client.say(channel, `@${tags.username} It's a work in progress but come follow! https://www.youtube.com/channel/UCfIpkJHyMtqFyjsbQOF8sHg`);
+            client.say(channel, `It's a work in progress but come follow! https://www.youtube.com/channel/UCfIpkJHyMtqFyjsbQOF8sHg`);
              break;
 
         case '!dead':
