@@ -73,7 +73,10 @@ client.on('message', (channel, tags, message, self) => {
             client.say(channel, `Slim Shady`);
             break;
             
-        
+        case '!goal':
+            client.say(channel, `If we hit 100 followers there will be a friendly neighbourhood Spider-man special!`);
+            break;
+            
         default:
             let mymessage = message.toString();
             break;
