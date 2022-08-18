@@ -48,6 +48,10 @@ client.on('message', (channel, tags, message, self) => {
         case '!rage':
             client.say(channel, `NonStopRage Activated`);
             break;
+        
+        case '!swear':
+            client.say(channel, `Language (if only I could put memes in chat)`);
+            break;
 
         case '!spidey':
             client.say(channel, `Thwip Thwip `);
@@ -62,8 +66,12 @@ client.on('message', (channel, tags, message, self) => {
              break;
 
         case '!dead':
-        client.say(channel, `You died again? What a suprise. Total Deaths: ${deathCounter++}`);
-        break;
+            client.say(channel, `You died again? What a suprise. Total Deaths: ${deathCounter++}`);
+             break;
+            
+        case '!death':
+            client.say(channel, `You died again? What a suprise. Total Deaths: ${deathCounter}`);
+             break;
             
         case 'ey':
             client.say(channel, `lmao`);
