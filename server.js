@@ -58,7 +58,7 @@ client.on('message', (channel, tags, message, self) => {
             break;
             
         case '!internet':
-            client.say(channel, `Oof Internet is broken agian eh? RIP `);
+            client.say(channel, `Oof Internet is broken agian eh? `);
             break;
             
         case '!commands':
