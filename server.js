@@ -57,6 +57,10 @@ client.on('message', (channel, tags, message, self) => {
             client.say(channel, `Thwip Thwip `);
             break;
             
+        case '!internet':
+            client.say(channel, `Oof Internet is broken agian eh? RIP `);
+            break;
+            
         case '!commands':
             client.say(channel, `!lurk, !Tiktok, !instagram, !twitter, !youtube, !twitchtok, !whatsup, !rage, !swear, !spidey, !commands (But you knew that one)`);
             break;
