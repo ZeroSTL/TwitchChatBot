@@ -25,7 +25,7 @@ client.on('message', (channel, tags, message, self) => {
             client.say(channel, `Thanks for Tuning in!! Stealth Mode Activated @${tags.username}`);
             break;
         
-        case '!Tiktok':
+        case '!tiktok':
             client.say(channel, `Check out my Tiktok!!! - https://www.tiktok.com/@nonstopantonio?lang=en`);
             break;
         
@@ -87,6 +87,10 @@ client.on('message', (channel, tags, message, self) => {
             
         case '!goal':
             client.say(channel, `If we hit 100 followers there will be a friendly neighbourhood Spider-man special!`);
+            break;
+        
+        case '!tiktok':
+            client.say(channel, `test test`);
             break;
             
         default:
