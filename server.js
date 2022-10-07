@@ -86,7 +86,7 @@ client.on('message', (channel, tags, message, self) => {
             break;
             
         case '!goal':
-            client.say(channel, `If we hit 100 followers there will be a friendly neighbourhood Spider-man special!`);
+            client.say(channel, `If we hit 50 followers there will be a friendly neighbourhood Spider-man special!`);
             break;
         
         case '!tiktok':
