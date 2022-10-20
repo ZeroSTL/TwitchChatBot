@@ -66,7 +66,7 @@ client.on('message', (channel, tags, message, self) => {
             break;
 
         case '!youtube':
-            client.say(channel, `It's a something new but come follow! https://www.youtube.com/channel/UCfIpkJHyMtqFyjsbQOF8sHg`);
+            client.say(channel, `Check out my YouTube where I upload videos Weekly! https://www.youtube.com/channel/UCfIpkJHyMtqFyjsbQOF8sHg`);
              break;
 
         case '!dead':
