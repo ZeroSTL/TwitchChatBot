@@ -13,6 +13,8 @@ const client = new tmi.Client({
 });
 
 
+const moderators = ["Banbul", "bannedfromchat69", "zerofrosting"];
+
 client.connect().catch(console.error);
 
 var deathCounter = 1;
@@ -62,7 +64,7 @@ client.on('message', (channel, tags, message, self) => {
             break;
             
         case '!commands':
-            client.say(channel, `!lurk, !Tiktok, !instagram, !twitter, !youtube, !twitchtok, !whatsup, !rage, !swear, !spidey, !commands (But you knew that one)`);
+            client.say(channel, `!lurk, !Tiktok, !instagram, !twitter, !youtube, !twitchtok, !uptime, !followage, !stream, !hug, !whatsup, !rage, !swear, !spidey, !commands (But you knew that one)`);
             break;
 
         case '!youtube':
